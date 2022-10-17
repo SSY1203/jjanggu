@@ -3,6 +3,8 @@
 @import "./routes/Home_module.css";
 @import "./components/Movies_module.css";
 @import "./components/Detail_Movie_module.css";
+@import "./routes/Character_module.css";
+@import "./routes/Question_module.css";
 html,
 body,
 #root,

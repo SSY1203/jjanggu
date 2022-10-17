@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Series from "./routes/Series";
 import Character from "./routes/Character.js";
-import Notice from "./routes/Notice.js";
 import Questions from "./routes/Questions.js";
 import Detail from "./routes/Detail.js";
 
@@ -17,7 +16,6 @@ function App() {
           <Route path="/series" element={<Series />} />
           <Route path="series/detail/:id" element={<Detail />} />
           <Route path="/character" element={<Character />} />
-          <Route path="/notice" element={<Notice />} />
           <Route path="/questions" element={<Questions />} />
         </Routes>
       </BrowserRouter>

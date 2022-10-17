@@ -23,11 +23,6 @@ function Menu_bar() {
             </Link>
           </li>
           <li>
-            <Link className="menu-link" to="/notice">
-              NOTICE
-            </Link>
-          </li>
-          <li>
             <Link className="menu-link" to="/questions">
               Q&A
             </Link>

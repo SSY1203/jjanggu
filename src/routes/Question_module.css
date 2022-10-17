@@ -1,0 +1,49 @@
+.post {
+  margin: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post h2 {
+  font-size: 50px;
+  color: #4156b4;
+}
+
+.post-wrap {
+  width: 100%;
+  border: 1px solid rgb(235, 235, 235);
+  max-width: 1000px;
+}
+
+.post-header,
+.post-list-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.post-num,
+.post-list__index {
+  width: 10%;
+}
+
+.post-title,
+.post-list__title {
+  width: 50%;
+}
+
+.post-writer-date,
+.post-list__writer,
+.post-list__date {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-list__date span {
+  font-size: 5px;
+}
